@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Inter-SemiBold", Helvetica;
+    font-weight: 600;
+}
+
+.menu-lateral {
+    position: fixed;
+    background: linear-gradient(180deg, rgb(38, 187, 251) 0%, rgb(88, 29, 182) 50.52%, rgb(38, 187, 251) 100%);
+    width: 120px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+
+
+.menu-lateral header {
+    display: flex;
+    padding: 10px;
+    margin-bottom: 30px;
+    top: 0;
+}
+
+.menu-lateral .logo-expandida{
+display: none;
+}
+
+#btn-expandir button,
+button>img {
+
+    border-style: none;
+    width: 24px;
+    height: 24px;
+
+}
+
+#btn-expandir button {
+    background-color: #5135C1;
+    position: absolute;
+    margin-left: 35px;
+    border-radius: 0 8px 8px 0;
+    transform: scaleX(-1);
+    cursor: pointer;
+}
+
+#btn-expandir button:hover {
+    background: rgb(38, 187, 251);
+}
+
+.menu-lateral ul {
+    list-style: none;
+    
+}
+
+.menu-lateral .menu-lateral-lista1 {
+    /* background-color: red; */
+    margin-bottom: 320px;
+}
+
+ul li.iten-menu a {
+    width: 176px;
+    height: 64px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+    padding: 5px ;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+ul .divider {
+    height: 1px;
+    background-color: #ffffff;
+    opacity: 0.1;
+}
+
+ul li.iten-menu a .txt-menu {
+ 
+   
+}
+
+ul li.iten-menu a .icon-menu>img,
+.icon-menu-2>img {
+    width: 24px;
+    height: 24px;
+}
+
+ul li.iten-menu {
+    transition: .2s;
+}
+
+
+
+/* ------------------------------------------------------------- */
+
+
+.menu-lateral.expand{
+    width: 256px;
+}
+
+.menu-lateral.expand .logo-encurtada{
+    display: none;
+}
+
+.menu-lateral.expand .txt-menu{
+    margin-left: 20px;
+    margin-right: 24px;
+}
+
+ul li.ativo{
+    background-color: #5135C1;
+    border-radius: 16px;
+
+}ul li.iten-menu:hover {
+    background-color: #5135C1;
+    color: #5135C1;
+    border-radius: 16px;
+}
