@@ -8,7 +8,7 @@
 .menu-lateral {
     position: fixed;
     background: linear-gradient(100deg, rgb(38, 187, 251) 0%, rgb(88, 29, 182) 50.52%, rgb(38, 187, 251) 100%);
-    width: 120px;
+    width: 8rem;
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -43,17 +43,6 @@ button>img {
     display: none;
 }
 
-.menu-lateral.expandido .menu-lateral-lista1 .txt-menu,
-.menu-lateral.expandido .menu-lateral-lista2 .txt-menu,
-.menu-lateral.expandido .menu-lateral-lista1 .icon-menu-2,
-.menu-lateral.expandido .menu-lateral-lista2 .icon-menu-2 {
-    display: inline;
-}
-
-.menu-lateral.encurtado .menu-lateral-lista1 .icon-menu-2,
-.menu-lateral.encurtado .menu-lateral-lista2 .icon-menu-2 {
-    display: none;
-}
 
 #btn-expandir button {
     background-color: #5135C1;
@@ -130,6 +119,7 @@ ul li.ativo {
 
 .menu-lateral.expand {
     width: 256px;
+    transition: 0.8s;
 }
 .menu-lateral.expand header {
     display: flex;
@@ -146,6 +136,8 @@ ul li.ativo {
     border-radius: 0 8px 8px 0;
     transform: scaleX(-1);
     cursor: pointer;
+    transition: 1.2s;
+
 }
 
 .menu-lateral.expand .txt-menu {
