@@ -1,0 +1,68 @@
+html {
+    height: 100%;
+    width: 100vw;
+    background-color: #E4E4E4;
+}
+
+main {
+
+    /* padding: 20px; */
+    height: 95vh;
+}
+
+#tela-inicial {
+    background-color: #fff;
+    margin: 20px 20px 20px 10rem;
+    height: 100%;
+    border-radius: 20px;
+}
+
+#header-tela {
+    padding: 20px;
+}
+
+.button-secondary {
+    background-color: #fff;
+    color: #2196F3;
+    border: 1px solid #2196F3;
+    cursor: pointer;
+    padding: 15px 40px;
+    border-radius: 20px;
+}
+
+.button-primary {
+    background-color: #22A318;
+    color: #fff;
+    border: 1px solid #22A318;
+    cursor: pointer;
+    padding: 15px 40px;
+    border-radius: 20px;
+}
+
+#header-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.button-terciario {
+    background: linear-gradient(160deg, rgb(38, 187, 251) 0%, rgb(88, 29, 182) 50.52%, rgb(38, 187, 251) 100%);
+    color: #fff;
+    padding: 15px 40px;
+    border-style: none;
+    border-radius: 20px;
+    position: absolute;
+    bottom: 40px;
+    cursor: pointer;
+    left: 190px;
+}
+
+#main-tela-info {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    flex-wrap: wrap;
+    /* margin: 100px 0; */
+    padding: 20px;
+}

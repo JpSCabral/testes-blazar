@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Inter-SemiBold", Helvetica;
+    font-weight: 600;
+}
+
+.menu-lateral {
+    position: fixed;
+    background: linear-gradient(100deg, rgb(38, 187, 251) 0%, rgb(88, 29, 182) 50.52%, rgb(38, 187, 251) 100%);
+    width: 8rem;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+.menu-lateral header {
+    display: flex;
+    padding: 10px;
+    margin: 20px;
+    top: 0;
+}
+
+#btn-expandir button,
+button>img {
+
+    border-style: none;
+    width: 32px;
+    height: 32px;
+
+}
+
+#btn-expandir button {
+    background-color: #5135C1;
+    position: absolute;
+    margin-left: 10px;
+    border-radius: 0 8px 8px 0;
+
+    cursor: pointer;
+}
+
+.menu-lateral ul {
+    list-style: none;
+
+}
+
+/* .menu-lateral .menu-lateral-lista1 {
+    margin-bottom: 120px;
+} */
+
+ul li.iten-menu a {
+    width: 64px;
+    height: 64px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 16px;
+    margin: 5px 0;
+}
+
+ul li.iten-menu a:hover {
+    background-color: #fff;
+
+}
+
+.divider {
+    height: 1px;
+    width: 100%;
+    background-color: #fff;
+    opacity: 0.1;
+}
+
+ul li.iten-menu a .icon-menu>img,
+.icon-menu-2>img {
+    width: 32px;
+    height: 32px;
+}
+
+ul li.iten-menu {
+    transition: .2s;
+}
+
+.iten-menu-user {
+    margin-top: 20px;
+}
+
+ul li.ativo {
+    background-color: #fff;
+    border-radius: 16px;
+}
+
+.alter {
+    display: none;
+}
+
+.menu-lateral #logo-expandida {
+    display: none;
+}
+
+/* ------------------------------------------- */
+@media  (max-width: 1024px) {
+    .menu-lateral .menu-lateral-lista1 {
+        margin-bottom: 100%;
+    }
+}
